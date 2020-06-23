@@ -14,7 +14,7 @@ package Semana06;
  * assim o construtor padrão deixa de existir de forma padrão e passa a força ou 
  * sua criação ou a utilização do novo construtor. 
  * Assim inicialização dos objetos não reconhece um construtor sem paramentro, 
- * orientado a utilização do novo. teste teste*/
+ * orientado a utilização do novo.*/
 
 public class TesteProduto {
 
@@ -24,7 +24,7 @@ public class TesteProduto {
 		Fornecedor fornecedor2 = new Fornecedor("Claudio", "543212345");
 		Fornecedor fornecedor3 = new Fornecedor("José", "9999999");
 		
-		Produto produto = new Produto(5, "Estabilizador", 200.00f, fornecedor3);
+		Produto produto = new Produto(5, "SmartTV 50'", 4000.00f, fornecedor3);
 		
 		Produto produto1 = new Produto(1, "TV LCD", 3500.00f, fornecedor1);
 		Produto produto2 = new Produto(2,"notebook", 2000.00f, fornecedor2);

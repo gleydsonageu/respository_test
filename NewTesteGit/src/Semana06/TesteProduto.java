@@ -14,7 +14,7 @@ package Semana06;
  * assim o construtor padrão deixa de existir de forma padrão e passa a força ou 
  * sua criação ou a utilização do novo construtor. 
  * Assim inicialização dos objetos não reconhece um construtor sem paramentro, 
- * orientado a utilização do novo.*/
+ * orientado a utilização do novo. teste teste*/
 
 public class TesteProduto {
 

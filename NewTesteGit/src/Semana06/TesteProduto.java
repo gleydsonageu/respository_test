@@ -24,7 +24,7 @@ public class TesteProduto {
 		Fornecedor fornecedor2 = new Fornecedor("Claudio", "543212345");
 		Fornecedor fornecedor3 = new Fornecedor("José", "9999999");
 		
-		Produto produto = new Produto();
+		Produto produto = new Produto(5, "Estabilizador", 200.00f, fornecedor3);
 		
 		Produto produto1 = new Produto(1, "TV LCD", 3500.00f, fornecedor1);
 		Produto produto2 = new Produto(2,"notebook", 2000.00f, fornecedor2);
@@ -36,6 +36,7 @@ public class TesteProduto {
 		produto2.imprimir();
 		produto3.imprimir();
 		produto4.imprimir();
+		produto.imprimir();
 		produto4.imprimirMedia(); /* aqui a chamada desse metodo pode ser por qualquer 
 									objeto pelo fato dos seus elementos estarem no metodo construtor, 
 									assim todas as vezes que o metodo é chamado os atributos static são 
